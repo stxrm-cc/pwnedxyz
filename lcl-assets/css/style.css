@@ -5,8 +5,8 @@
 
 
 body{
-  font-family: 'Fugaz One';
-  color:lightgrey;
+  font-family: 'ANURATI';
+  color:rgb(251, 196, 144);
   overflow:hidden;
   margin:0;
 
@@ -42,22 +42,24 @@ h1{
   font-size:5rem;
   width:750px;
   text-align: center;
+  color:rgb(251, 196, 144);
 }
 
 *::selection {
     background: white;
 }
 
-a{
-	transition: 300ms;
+a {
+  transition: 300ms;
   padding:3px;
-	color: white;
-	text-decoration: none;
-} a:hover {
-	transition: 300ms;
+  color:rgb(252, 247, 187);
+  text-decoration: none;
+} 
+
+a:hover {
+  transition: 300ms;
   cursor: pointer;
   background-color:lightgrey;
-
 }
 
 #bgVideo {
