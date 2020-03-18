@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" rel="icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
+    <link rel="stylesheet" href="lcl-assets/css/style.css" type="text/css" />
+
+<script language=javascript>
+    msg = " ✞ ";
+    msg = " sauce " + msg;position = 0;
+    function scrolltitle() {
+        document.title = msg.substring(position, msg.length) + msg.substring(0, position); position++;
+        if (position > msg.length) position = 0
+        window.setTimeout("scrolltitle()", 400);
+    }
+scrolltitle();                </script>
+  </head>
+
+  <body id="vhs">
+    <div id="center">
+      <h1>SAUCE</h1>
+    </div>
+  </div>
+  <video id="bgVideo" autoplay muted loop>
+    <source src="premonition.mp4" type="video/mp4"/>
+    <audio id="myaudio">
+        <source src="premonition.mp3" type="audio/mpeg"/>
+    </audio>
+</video>
+
+<script>
+    var myvideo = document.getElementById("bgVideo");
+    var myaudio = document.getElementById("myaudio");
+
+    var change_time_state = true;
+
+    myvideo.onplay = function(){
+        myaudio.play();
+        if(change_time_state){
+            myaudio.currentTime = myvideo.currentTime;
+            change_time_state = false;
+        }
+    }
+
+    myvideo.onpause = function(){
+        myaudio.pause();
+        change_time_state = true;
+    }
+</script>
+</body>
+
+<script>
+    console.log('sauce#5521 owns me and all.')
+    </script>
+</html>
