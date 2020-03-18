@@ -2,6 +2,11 @@
  font-family: 'ANURATI';
  src: url("../fonts/anurati.otf");
 }
+@font-face {
+ font-family: 'Fugaz';
+ src: url("../fonts/FUGAZ.ttf");
+}
+
 
 
 body{
@@ -50,6 +55,7 @@ h1{
 }
 
 a {
+  font-family: 'Fugaz', cursive;
   transition: 300ms;
   padding:3px;
   color:rgb(252, 247, 187);
