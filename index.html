@@ -36,7 +36,10 @@ scrolltitle();
 <script>
     var myvideo = document.getElementById("bgVideo");
     var myaudio = document.getElementById("myaudio");
-
+    
+    myaudio.volume = 0.666;
+    myvideo.volume = 0.666;  
+  
     var change_time_state = true;
 
     myvideo.onplay = function(){
