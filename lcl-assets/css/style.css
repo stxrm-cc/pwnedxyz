@@ -1,12 +1,12 @@
 @font-face {
- font-family: 'Fugaz One';
- src: url("../fonts/FUGAZ.ttf");
+ font-family: 'ANURATI';
+ src: url("../fonts/anurati.otf");
 }
 
 
 body{
   font-family: 'Fugaz One';
-  color:rgb(251, 196, 144);
+  color:lightgrey;
   overflow:hidden;
   margin:0;
 
@@ -37,29 +37,27 @@ span {
 }
 
 h1{
-  font-family: 'Fugaz One', cursive;
+  font-family: 'ANURATI', regular;
   font-weight:normal;
   font-size:5rem;
   width:750px;
   text-align: center;
-  color:rgb(251, 196, 144);
 }
 
 *::selection {
     background: white;
 }
 
-a {
-  transition: 300ms;
+a{
+	transition: 300ms;
   padding:3px;
-  color:rgb(252, 247, 187);
-  text-decoration: none;
-} 
-
-a:hover {
-  transition: 300ms;
+	color: white;
+	text-decoration: none;
+} a:hover {
+	transition: 300ms;
   cursor: pointer;
   background-color:lightgrey;
+
 }
 
 #bgVideo {
