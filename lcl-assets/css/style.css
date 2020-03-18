@@ -9,12 +9,9 @@
 
 
 
-body{
-  font-family: 'ANURATI';
-  color:rgb(251, 196, 144);
+body {
   overflow:hidden;
   margin:0;
-
 }
 
 #center {
@@ -38,7 +35,7 @@ body{
 }
 
 span {
-	font-size: 3rem;
+  font-size: 3rem;
 }
 
 h1{
