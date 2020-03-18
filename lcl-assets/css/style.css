@@ -42,7 +42,7 @@ h1{
   font-size:5rem;
   width:750px;
   text-align: center;
-  color: fbc490;
+  color: #fbc490;
 }
 
 *::selection {
@@ -52,7 +52,7 @@ h1{
 a{
 	transition: 300ms;
   padding:3px;
-	color: fcf7bb;
+	color: #fcf7bb;
 	text-decoration: none;
 } a:hover {
 	transition: 300ms;
